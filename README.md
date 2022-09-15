@@ -1,1 +1,2 @@
 # landing-page-project
+This project will put all previous learning into practice to create a web landing page from scratch. I will style the page to closely resemble a design provided and add some of my own content.
