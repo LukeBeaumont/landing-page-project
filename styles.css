@@ -30,7 +30,7 @@ ul {
 .top-container {
     display: flex;
     background-color: #1F2937;
-    justify-content: center;
+    justify-content: space-around;
     padding: 60px;
     gap: 50px;
 }
@@ -95,10 +95,12 @@ button {
 .quote-container {
     background-color: #E5E7EB;
     font-size: 26px;
-    font-style: italic;
     padding: 100px;
     color: #1f2937;
     justify-content: center;
+}
+#quote { 
+    font-weight: 800;
 }
 
 .bottom-container {
@@ -111,17 +113,19 @@ button {
     display:flex;
     background-color: #3882F6;
     padding: 32px;
+    padding-top: 15px;
     margin: 50px;
     border-radius: 4px;
     color: #F9FAF8;
     font-size: 16px;
     align-items: center;
-    justify-content: flex-start;
-    flex-wrap: wrap;
+    justify-content: space-between;
+    min-width: 70%;
 }
 
 .button-two {
     border:#F9FAF8 solid;
+    
 }
 
 .footer {
